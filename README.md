@@ -13,21 +13,31 @@ However, not for Scala.
 ## Factorial
 
 ```python
-...
+math.factorial(x)
 ```
 
 ## Fibonacci
 
-```python
-...
+```bash
+pip install py-fibonacci
+
+def fibonacci(end=None, start=0, inclusive=True, length=None):
+    ...
+
+fibonacci(39) 
+    -> only end number is given. there are several fibonacci numbers upto 39 starting at 0.
+
+fibonacci(39, 3) 
+    -> end and start numbers are given. there are several fibonacci numbers upto 39 starting at 3.
+
+fibonacci(39, 3, False) 
+    -> end, start numbers and inclusive=False are given. there are several fibonacci numbers upto 39 (exclusive) starting at 3.
 ```
 
 ## erf
 
 ```python
-import math
-
-math.erf
+math.erf(...)
 ```
 
 ## WIP
